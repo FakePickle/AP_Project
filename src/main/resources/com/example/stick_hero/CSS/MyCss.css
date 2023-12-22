@@ -1,0 +1,13 @@
+/* Circle Button */
+.circle_button{
+    -fx-background-radius: 80;
+    -fx-pref-width: 150;
+    -fx-pref-height: 150;
+    -fx-background-color: #ff0000;
+}
+.side_button{
+    -fx-background-radius: 50;
+    -fx-pref-width: 80;
+    -fx-pref-height: 80;
+    -fx-background-color: #000000;
+}

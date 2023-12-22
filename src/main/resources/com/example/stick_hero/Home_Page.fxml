@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stick_hero.HelloController">
+   <ImageView fitHeight="720.0" fitWidth="600.0" pickOnBounds="true">
+      <Image url="@Images/sky.jpg" />
+   </ImageView>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="210.0" layoutX="212.0" layoutY="512.0" stroke="BLACK" strokeType="INSIDE" width="177.0" />
+   <Label alignment="CENTER" layoutX="174.0" layoutY="29.0" prefHeight="83.0" prefWidth="280.0" text="STICK" textAlignment="CENTER" textFill="#f05941">
+      <font>
+         <Font name="Verdana Bold" size="64.0" />
+      </font>
+   </Label>
+   <ImageView id="start_char" fitHeight="100.0" fitWidth="100.0" layoutX="251.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
+      <cursor>
+         <Cursor fx:constant="DEFAULT" />
+      </cursor>
+      <Image url="@Images/Character.png" />
+   </ImageView>
+   <Label alignment="CENTER" layoutX="162.0" layoutY="112.0" prefHeight="83.0" prefWidth="303.0" text="HERO" textAlignment="CENTER" textFill="#f05941">
+      <font>
+         <Font name="Verdana Bold" size="64.0" />
+      </font>
+   </Label>
+   <Button layoutX="226.0" layoutY="241.0" mnemonicParsing="false" onAction="#switch_to_game" prefHeight="130.0" prefWidth="132.0" styleClass="circle_button" stylesheets="@CSS/MyCss.css" text="PLAY" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="24.0" />
+      </font>
+   </Button>
+   <Button layoutX="14.0" layoutY="439.0" mnemonicParsing="false" onAction= "#help_page_button" prefHeight="130.0" prefWidth="132.0" styleClass="side_button" stylesheets="@CSS/MyCss.css" text="?" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="41.0" />
+      </font>
+   </Button>
+   <Button layoutX="513.0" layoutY="449.0" mnemonicParsing="false" onAction="#switch_to_bonus" prefHeight="130.0" prefWidth="132.0" styleClass="side_button" stylesheets="@CSS/MyCss.css" text="Dark Mode" textFill="WHITE">
+      <font>
+         <Font name="Verdana Bold" size="10.0" />
+      </font>
+   </Button>
+</AnchorPane>

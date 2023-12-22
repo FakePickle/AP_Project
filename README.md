@@ -1,52 +1,60 @@
 # Stick Hero Game
 
-This repository contains the source code for a Stick Hero game implemented in JavaFX.
 
-## Description
+## Contents
 
-The Stick Hero game is a simple interactive game where the player needs to extend a stick to reach the next platform while collecting cherries for points.
+- [Description](#description)
+- [Features](#features)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Implementation Details](#implementation-details)
+- [Contributors](#contributors)
 
-## Features
+## Description <a name="description"></a>
 
-- Extending stick mechanic
-- Cherry collection for bonus points
-- Dynamic character movement
-- Sprite animations
-- Bonus Implementation - Harder Version of the Game / Multithreading
-- We have implemented Design Patterns like Singleton, Factory and Decorator Method.
-- We have used Maven for building the project.
+The Stick Hero game is an engaging JavaFX-based interactive game where players extend a stick to reach the next platform while collecting cherries for points.
 
-## Setup
+## Features <a name="features"></a>
+
+- **Stick Extension Mechanic:** Extend the stick to reach platforms.
+- **Cherry Collection:** Gather cherries for bonus points.
+- **Dynamic Character Movement:** Engage with the character's movement.
+- **Sprite Animations:** Interactive sprite animations enhance the gaming experience.
+- **Bonus Implementation:** A harder version of the game is included alongside multithreading.
+- **Design Patterns:** Implemented Singleton, Factory, and Decorator Methods.
+- **Maven Build:** Utilized Maven for project building.
+
+## Setup <a name="setup"></a>
 
 ### Prerequisites
 
-- Java JDK installed
-- JavaFX library
+- Java Development Kit (JDK) installed
+- JavaFX library configured
 
 ### Running the Game
 
 1. Clone this repository to your local machine.
 2. Open the project in your preferred Java IDE.
-3. Make sure to configure the JavaFX library in your IDE.
-4. Run the `Main` class to start the game.
-5. Type this command in terminal to run the game from the project directory: ```mvn clean javafx:run```
+3. Ensure JavaFX library configuration in your IDE.
+4. Run the `Main` class to initiate the game.
+5. To run the game from the terminal, execute this command from the project directory: `mvn clean javafx:run`
 6. Enjoy the game!
 
-## Usage
+## Usage <a name="usage"></a>
 
 - Click the left mouse button to extend the stick.
 - Release the mouse button to drop the stick.
 - Control the character's movement using mouse clicks.
 - Collect cherries for bonus points.
 
-## Implementation Details
+## Implementation Details <a name="implementation-details"></a>
 
-- The game uses JavaFX for the graphical user interface.
-- Various animations are implemented using JavaFX's animation classes.
-- Collision detection is used to manage gameplay mechanics.
+- **JavaFX UI:** Utilizes JavaFX for the graphical user interface.
+- **Animation Techniques:** Implements various animations using JavaFX's animation classes.
+- **Collision Detection:** Manages gameplay mechanics through collision detection.
 
-## Contributors
+## Contributors <a name="contributors"></a>
 
-#### Group 4
+### Group 4
 - [Harsh Mistry (2022200)](https://github.com/FakePickle)
 - [Aditya Narayan Jagadale (2022032)](https://github.com/jaagss)

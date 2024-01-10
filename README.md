@@ -41,7 +41,6 @@ The Stick Hero game is an engaging JavaFX-based interactive game where players e
 6. Enjoy the game!
 
 
-<br>
 ## Usage <a name="usage"></a>
 
 - Click the left mouse button to extend the stick.
@@ -49,7 +48,6 @@ The Stick Hero game is an engaging JavaFX-based interactive game where players e
 - Control the character's movement using mouse clicks.
 - Collect cherries for bonus points.
 
-<br>
 ## Implementation Details <a name="implementation-details"></a>
 
 - **JavaFX UI:** Utilizes JavaFX for the graphical user interface.

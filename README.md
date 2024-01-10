@@ -14,7 +14,6 @@
 
 The Stick Hero game is an engaging JavaFX-based interactive game where players extend a stick to reach the next platform while collecting cherries for points.
 
-<br>
 ## Features <a name="features"></a>
 
 - **Stick Extension Mechanic:** Extend the stick to reach platforms.
@@ -25,7 +24,6 @@ The Stick Hero game is an engaging JavaFX-based interactive game where players e
 - **Design Patterns:** Implemented Singleton, Factory, and Decorator Methods.
 - **Maven Build:** Utilized Maven for project building.
 
-<br>
 ## Setup <a name="setup"></a>
 
 ### Prerequisites
